@@ -75,7 +75,6 @@ mod tests {
         assert_eq!(Cluster::from_str(name).unwrap(), cluster);
     }
 
-    #[test]
     fn test_cluster_parse() {
         test_cluster("testnet", Cluster::Testnet);
         test_cluster("mainnet", Cluster::Mainnet);
